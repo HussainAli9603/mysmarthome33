@@ -33,7 +33,7 @@ let dbPass = process.env.DB_PASSWORD;
 
 // database connection
 // var mongoDB = "mongodb://localhost:27017/mySmartHome";
-var mongoDB = "mongodb+srv://mysmarthome:mysmarthome@cluster0.rutul.mongodb.net/MySmartHome3?retryWrites=true&w=majority";
+var mongoDB = "mongodb+srv://mysmarthome:UaLhntC5yZznxNfM@cluster0.rutul.mongodb.net/MySmartHome3?retryWrites=true&w=majority";
 mongoose
   .connect(mongoDB, { useNewUrlParser: true,useUnifiedTopology:true })
   .then(() => console.log("connected to dB.."))
